@@ -1,57 +1,153 @@
-<html>
-    <head>
-        <title>OZON</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <header>
-            <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/2/27/Ozon-new-logo-01.jpg">
-            <a class="button" href="">Каталог</a>
-            <input class="poick" name="Искать в OZON FRESH">
-            <a class="vhod" href="https://www.ozon.ru/category/supermarket-25000/?miniapp=supermarket">Войти</a>
-            <a class="zakaz" href="https://www.ozon.ru/my/orderlist">Заказы</a>
-            <a class="izbra" href="https://www.ozon.ru/my/favorites">Избранное</a>
-            <a class="korzina" href="https://www.ozon.ru/cart">Корзина</a>
-        </header>
-        <nav>
-            <a class="nav-link" href="https://ku-lich.github.io/ozon5/">OZON FRESH</a>
-            <a class="nav-link" href="https://ku-lich.github.io/ozon3/">Главная</a>
-        </nav>
-        <main>
-            <h1>Электроника</h1>
-            <section class="info">
-                <article class="post">
-                    <img class="post-img" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAQEBUPDxAWDw8VEBAQDw4PEA8VEBUQFRUWFhUSFRUYHSggGBslGxUVITIiJSkrLi4uFx8zODMtNygtLysBCgoKDg0OGxAQGy0lHyUvKy0tLi0tLS0tLS8tLSstLS0tLSstLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIAOEA4QMBIgACEQEDEQH/xAAcAAEAAQUBAQAAAAAAAAAAAAAABgECAwUHBAj/xABUEAABAwIABwcOCAwEBwAAAAABAAIDBBEFBgcSITFBM1FhcYGRsRMXIjJScnSEk6Gys8HRFDRCU1RzkqIVIyQlYmOCpMLD0vAWQ9PhNURklKPi8f/EABsBAQACAwEBAAAAAAAAAAAAAAABBAIDBQYH/8QAPBEAAgECAwMIBwUJAQAAAAAAAAECAxEEITEFElETQWFxkaGx0RQ0UoGywfAykqLS4RUiJDVCU3LC8TP/2gAMAwEAAhEDEQA/AO4oiIAiIgLXEDSdA2kqIYWx8giJELDUW0GTPbHBfaBIbl3G0EcK8mUHCxuKNjs1mZ1aocDpc3TmxcRzS4jaA0aiVzec53ZuIaANbrWa3/5p91wq9Sq07RPQbM2RCtDlazy5lp28+fRbLO5On5SJNkUI4M+Z3nDQnXIl7iDnn9y5l+FaUuzG1QLtVtIbfgcW2862LYb7XcI7G/QtTnU52dans7ZtRPcSdtbNu3XZ5E865EvcQc8/uTrkS9xBzz+5QU0+8Tyhp9ysewj+9m+P76Rdvz4+BtWycC9Id8vMnZyky9xBzz+5YJMp04APUYc0/Lc+RreS+l3ICoE5w0uOlrRexNgXHQ1pOwayeBpUPhgqcJTue1xDRoLzcNa3YABt4At1CNSq7JnJ2lTwWFapwpb0n0ysl236jtrMqjjrZFyCpt5wFd10nfNxfZmXL4sRWEdnPITtIDQOY3VuEMR42QySMlkc9sb3tac03LQTm2Avpsuj+za1r/NeRyd52/8AKH4/znU+ug/5uLmmVeufJ83H9mZfNucd9M476pbvS+7yNPpMf7UPx/nPpLrnyfNxfZmTrnyfNxfZmXzcDw251U990pudL7vIn0mP9qH4/wA59Idc+T5uP7Myp10X/Nxc0y+cnagc7Ttbp0LHnHfTc6X3eRHpMf7UPx/nPpHrpO7iLmmVOum4f5UZ4LTj2FcixTxRZV05nlkez8Y5rAzNsWgDTpG+SORbV+T+Aap5fue5WoYCrOKknk+leRtU21dUofj/ADnXcEZS6eZ2bIwsOrOjcXgfpOYWteBxAqa01QyRgkjcHscA5r2EFpB1EEa18mYcxeno7TMlMkbSOyF2uab6Li+rVpHmXWckmNDnZsUhu2XRwNm02dwZ2a5p3zmHRnFaKlOdKW7MxdOFS6jHdkle17ppZu17tNLPOTur6Wz7CiIhTCIiAIiIAiIgCIiA5HjO4vq6sk65WRDgAbE32HnXOMfp3NhY1p7B7351t4AOa3i7L7o3l0XD3xyoP/VNHnZ71E8K0DKiLqT9VmkOHbBwaNIVNNKd3xPaSoyrYDk4PNxj8MMn12t7zmksADb51zYaLb5d7h9pTbFSpc+CPO0m0jLna1pFvMbci1TcT3Z1nTks3mxnPtxE5o51KsH0bY2hrRYNAa1t72HCdpJJJPCtterCSVjn7H2fiaNVzqKytbVZ5rg3pbyNiWMzL5xzs4DM2ZttawWvo5Ptdj/FfkCkjcUZTT9XDxnZueI9N8217X37KNsdqPCw/eaq7R26FWnU3tye9Z9nRossstetmoqvi1Q7aGSkHiiDf5pW3ycYPYMHMktpe+VzjwhxZ0NC1FT8UqPq6gfdhUjydH81wj9Kb1r12Nk/b9z8Ued2hnj534LwXmbR1ONidQXtEaqIV6PesaLEPq8RKKR5fmOjubkRvs2/ACDbkWIZOqH9b5Qf0qbiBXinVd0aDd3FdhjyMOBBut1Q/rfKf+qdbmh/W+UH9Knopld8GWHI0PYXYRyMOBADk6of1vlB/SqsyeUINyJHcBk0HmAKnxpljdTKVSoewuwnkocEamnpWRMbHG0MY0Wa1uoBWyMWzdTlYJISrCs8kZWNBhSmD4nscLhzHNPKCo5kxkLWNfexZVAjkMMn8PnU2qoexd3ruhQTJtuPjX8DVxtrLKPU/kYU1/E0+u312n08iIuccwIiIAiIgCIiAIiIDkeHfjdR4WOmNQ/C+FGU0ee4Zxs0NYDa7i3QL7BoKlmMjrVNWd6pvzGNQHHeic6JsrAXNjkJfbuHNaA/mAPE5UopOdnxPazq1KWz+UprNRjb7sbv3K79xpv8XTF13Rsze5bnNNuB1+kKVYOrhK1rgbtdpaTrGwg8IOhc9lqGlmaA3ZZwHZaP785UzxYpXMgYHizrveQdYzjcA8jb8q34mlCCW6c7YePxFes4VHdWv1Z/P/hO242VAp/g4DbZmYJbHqgZa1r3te21aBgtYbLsH3morSbaTx/Z7LpAH7QVW7Z6CFCnSvycUr5uxra1oFJPb5mYnjzYVvcnJ/NkPHN616j9R8UqPq6j0YVusnTvzdEOGb1jl2tkfa9z8UeY2gv46fUvCJMYV6msWuifZeyOVdqRpM4jWRrFa16yNctLZJeGK7MVA5VzlhcFharCxZC5WFylMFhjWKSMLI6ReWeostkbkHirWANd3ruhc2yb7j4yfQap7hGq7F3eu6FAsm+4+Mn0Gqjtb7Eep/IiHrNLr8j6eREXNOSEREAREQBERAEREBxrGGYPlrCL2FS9nK17WnzgrQtmIFuTk3uEa1u8OD8bWeGTesC0K59/r3s+jYSKVFR4JeCPKKKIOzxBG1175zWtv0aF6mutqaecIqXS5vjThHKKS6ivVT3PO7/ZWTvJHT7uJXXWKUoS0jBWsAo5rbYagnj/ABY9i9GTqub8EZFfsml+jgMhPtXmrH3o5+CGob6o+1RvAckkUcbxdt85zTsc3Pc0kb4u0jkXd2Kk52fB+KPHY5Xx810L4YnYozdehhULwRjO11mydg7f+SVJYK5rtRXblTcTU0bRrlna9eCOcL0MlC1OJB6w9XdUXlbIFfnrW0DKXK0lYjIrXSBFmBK5a6pes884G1RrDeG2Rg6bu2NGtb6cG9AYMOV4Y12nSbgDkUbyfShlM5xuQKhzyBrs2NpNuHQvHVVElQ+wBc5zs1jG3JJOoAL04hD8lf8AXu9WFzNtJKEUuEvkZUop4ujF+0u9o+omm4urljg7VvejoWRcw4q0CIiEhERAEREAREQHF8O7rWeFzesC0F1v8YGObLWB1ifhUzv2S8FvmcFHrrnWt9dLPo+Ed6Sa6PhRVLq0lUuhZLrrFKVddYpShD0MVS0ijnJ2xVBHFaIexSTEzFuOvwFAxxzJmuqTDLbtSZn3ad9psLjgB2KPVp/IpfqKj+WugZHR+Z4O+qPXPV/CycbSi7NHi9oevT6l4ROV4WwTNSymKeMxvHnbscDqc3h9qwU2EJY+0eRwX0cxX0VhPA1PVx9SqYhI3W2+hzTvtcNLTxLn2G8lMgu6keJ2/NSkMl4g8DNdy5q9LQ2lSmrVHuv8L8vfl0mlVo6SIbTY0St7YB3OCthDjiPlMI4iF4a/Fmop79XpZY7a3dTc5n2hdvnWt+Dx8POujGMZq8Un1Z+DNqs9CVsxzj3ncyu/xpFvHmUR+Ds4fMqGBn92TkY+z4jdXAlUmOzNjSeZeKfHRx7VnOfctF1GO9gLneGtbOixYq5txo5n7zjE9rPtmw86iUYQV5WXXl4sh7q1PLV4xVEmjOzRwe9a5kT5HBtnSOcbNaAS5zjqAGsldCwXkrqn2NVIynboJYz8bJwjR2I4848SneBMVaSiH4iO8lrOnkIdKRtF7WaOBoAVKttGhBWg958Fku3yMeVjpHMieKGJvwSN1TUgGqMb8xmgiFpab6dReRoJGrUNt+d4g/FX/Xu9WF3ut7R/eO6CuDYgsLqVwbYOM7w0nVnGNtr8q81iqs6u9OTu2TQdsXQb9peKPp6DtW96OhZFZG2wA3gAr1BxloEREJCIiAIiIAiIgOO42btV+EH+WotdSfG3dqvwg9Mail1Qlr2+J9EwHq8OqPwxL85WpdW3WJcLljlV11ZKVIehil+J1H1dR6MK6LkdP5ng76o9c9c6l+J1HeVHowra4rYalZgqlpoHmN7urvke0kODTNIGtadhNibjTq31apzUKe8zyOJoSr7SlTjq0vct2N2dokq44heWRkQ35XsjHO4rBPjTQR66uI948v8AV3XJ24NbfOcS4nSSSSSeErL8Ej7kLB1ZvmS7y4th0L/vVJPqSXizokmPuDhqmc7vIZR6bQtbVY7YNfodSvm4XwU7h953sUIMMTDctvvAW1cStdXNb2sThxMHvWqVZx1aXiWIbCwjeUZvra+USRTYyYPv2GBIXjfdHTNPMIivP/iCIG8eBqWM7CadhPOGhaNuEi7tGl3ACB6KzMnmdqjc3vmyn3KFiaj0mza9lYKKzpr3yf5kb6LHOsbudLTxDYGQSDoespx2wl3EXkn+9aAR1Hcu5o/abpecdtG48IczoBTeZksHhFpTh3+ZvRjvhDVmQngMcg/jVP8AGdb8qCJ/eCZvS8rTMffTmuvw2J4tauzjvH7Llmpz9pj0TC89OPevmbd2OjiHNkpnNGa4ZzJQdnclo6VznJtuPjJ9BqlznXB7E6trSNnCojk23Hxk+g1bIuTjK7v9M5OOoUqeKw/Jq1275t6W438T6eREVg8wEREAREQBERAEREBxrG7dazwg/wAtRS6leN261n156Y1Erqg9T6LgPV49S+GJddUuqXVLqC4XXWOQ6FddbHFuBslSzP0tALrHUS0Fw9h5FKV3Y1V6ipU5VHok32K9jV1UTm0lQHAg9SnNnAg2LYSDYpiFAfgzHgX3QWvp7d2+trjibtqj+pl9XAvPk9H5DGeGT1hW6StTt0+Z5zCVXPHzqab1OPfybN4Q7uDylnsKQUksuqzRvgF1+LVzrZUdGZTq7HbwqTUeD2tGpYxTZfr4tUlbnI7SYtNOl5cd+5t0WK2MeL8Lf8sX3yATzqRRwhXdSC2KmkcipjpzebNF+DG7yubg5u8t0YlQRLLcMfSpcTWNoW7ytkwa07FtwxUc1N1GKxEr5MilbgfaNB31qZGFpzXCx8xU4mjWnwhRBw1LW420Ojh8Y3lIjUmo8XsUKybbj4yfQapzUxluc067Hl0KDZNtx8ZPoNUx+xL64mraDvicP1v/AFPp5ERWDywREQBERAEREAREQHGccN1q/CD0xqI3Uuxy3Ws8I/01DbqjLXt8T6Ls/wBXj1R+GJddLql1S6xLhW69ODKvqUzJNgNncViD0leW6xSFSYVIRnBxlo1Z9T1NvjPIHRVLgbgwykEaiOpwWKuybQF9HE0bTJfi6o5alzvyKo+rqB92FS7JJEPwdE/bnS+sct+sPf5nlI/w+NnHW0IrugTeigDGgBe+MrwdUVk9eGDR2Tj2rfad4LJGuUJTfSzbPma0ZziGtGskgBeCXDMepgdJw2zWc50+ZatxLznyuuRqvoa3iGxVEzRqBPEPejnwNkcLBa5vu8+89hwtKe1jaONxPsCo3C0g7aNp4nkewry/CP0T933p8IHckcg9hUb7NvIw9hdr8zYRYaj+U1zDv2zm+bT5l7Iqljxdjg4b4N9O8d5aPqjDt5DoPnWJ8djnNJa7um6DxcXAm/xNcsNB6XT7vM3sjl53C68ENee1k0HUHjUePeP98C9YkUsx5KUNTX4WoA9jiO2DXEcy5Rk23Hxk+g1dlqHdg7vHdBXGsm24+Mn0Gp/TL64mqcm8RQT5m/kfTyIi3HCCIiAIiIAiIgCIiA4xjnulZ4R/pqF3Uzx03Ss8I/01Crqk9WfRtn+rx6o/DEuuqXVLql1Fi4XXVjyq3WN5SxD0M/8AyVR3lR6MKmeSo2wVD303rXKF/wDJVHeVPowqQ5NcItZg6NrjYh03ne4rcnamus8pWg57RqJL+lf6E4nnsOgb5XidOGm7jd51/wB7AtcKqapfmwt0Xtnu0Rt37naeAea62sGA4m7qXTP25xLWX4GtOkcd1plVvlEuunCirVHnwWb9/DxPM+vjGlzhfhIAHErPwvH8nsu90radRiGhkTAf0WRjnICyjhPINAWP77zbMOUpey+35W+Zqfh79kMp4oZSPMEFXL9Gl8jN/StuGDeHMhaN5Y58e4jlqfsd7NSal+2nltwwS+5YXYSDdYc0bz2kDzjQt3pGo8h0q+Op2HQVklPmfcTysOaHf+hpGYRieNY4dIK9lLU27Em4+S72FemrooZt0jaXbH5oEg4nDStPUYHcL9SkIcPkPJzeCztY5bqYzktUZRlRqK2cevNdqz7rdJuZZOwd3rugrkWTbcfGT6DVPTXzRtImjIHZN6oBdhNtjho26tagWTfcfGT6DVvjJShK31qc/E0HTxVC+jbzWaysfTyIisHnQiIgCIiAIiIAiIgOMY7dvWeEe2NQa6nGO3b1nhHtjUFuqT1Pouz/AFePVH4Yl11S6pdUuoLpddWvKXVryhD0PSPiVR3lT6MKmWTrBVM7A8EskQMpdO3Ou8f5r+ycAbOsBtGxQ1vxGo7yp6IVMsmr74Kp2bAajm6s8n2DnW7Lk8zyOIcltKTi2slplluxJTSxhjdADRazWgWAbsAGxWSy7Br2neVJ5batewLylxvmt0u2ne/3U0qV/wB5/X/CzGF82ZnTBujWd7bxrGZnHbmjeHvV8VLvnjtr5Ss7ImjZz6VMrLmuZOUV0ni17SeUlVDSNVxxZwWwRa9/oI5XoPD1Vw+VyOVRUbHC3Ds517SsL4WnZbiWyLXAnfi9UGS7DyH2FXv08Y/uy8ZhLe17JvcnWOL3LLFLyjYdvKpqUbLeiQ4rVHpgeAHA6WPjc1wOq9jm3Hm5VyHJtuPjJ9Bq6vKexcN9riOOxv7+dcoybbj4yfQasI/YkvrnOfVjbFUX0+R9PIiKwcIIiIAiIgCIiAIiIDi+O/b1nhA6Y1A1PMd+3rPCB0xqBqk9WfRdn+rx6o/DEJdURC6VVj1ddWOUEPQ9bfiNR3lT0QqXZML/AIMhA0kmbkHVXqIs+I1HeVPRCphk10YJht2znTAeVf7FYgrwSXE8liP5lP8AxXhEkRFzYH9rgWZjABYaFRjLCyvsru7ZWRZbuVCuCtsqrTKBgXIqIsOTIBVpVVSyzjCxJRYHssc5uvaN9Z0W5RMk7GCo7QkdqWkg7xtqXK8m+4+Mn0Grq9uxe3YWOIHJpC5Rk33Hxk+g1VJw3FKP1oUq3rNFdL+R9PIiLYcAIiIAiIgCIiAIiIDi2PHb1nhA6Y1ArqeY8dvWeEDpjUCVJ6s+ibO9Xj1R+GJVERQXgrXq5WvQh6Hrj+I1H1dT0QqXZMTfBkPAZxzyvJ9iiLPiM/1dT0QqXZMP+GQd9N616v4NXXaeSrfzGp/ivCBLUCoFcrcom8IqqqwsYhEVLKN0BUVyKbAsKKqtKzSJRhqTZpO8081jfzLlWTfcfGT6DV1Wp7V3eu6FyrJvuPjJ9Bq0YuNo+4qV/WaHW/kfTyIi1HACIiAIiIAiIgCIiA4rjwezrB+vvyF0fuUDU/x4YeqVrdolDuR3UnfxKAKk9X9c7PomzvV49UfhiEVEUF0qrHK5WuQh6HrZ8Rn+rqTyWhCl+TH/AIXD303rXqHsd+RTj9GoHPGx3QxyluTCQHBkYBuWvma7gOeXW5nBdHA+fieTrZbRn/ivCJLgrgrAVcCrzRvZeEQJda7GJVES6WARLqimwKFWq4qhUkmGoHYO713QuU5N9x8at9xq6nXShkUj3GzWxyOcTqADSSfMuW5Mm3Y2Pa+pOb/4WdLwq2L+z2lSu/4mj1v5eR9OoiLScAIiIAiIgCIiAIiIDnOUPBmbL8IzfxMzBBM4fJkFw1x3s4G19V2DfXI6qndG8tcLEcxGwjgX03U07JWOjkaHxuBa9jgC0tOsEKA4ayc5/wAXe17dNoarPBbwMmZ2QHAQeNVqlJ3vE9Jsra9OlBUq2VtH0c1+dW0001tbPjqLoUmTWqB3Fp7yqFvvMusfW3qvow/7qP8AoWvdlwZ3P2rhPbRAFaV0Lrb1f0f98Z/SnW3q/o/74z+lRuy4B7UwvtrtRBKBw7KE2/GAZucbN6oAQQTsDmuc2+y68OK2MsmCppIZGGSBzuzjvZ7XDQHtv8q2gjbYby6M7JdVH/JA46pvsYsdXkyrpLdUhimsLB7qn8aBvZ4aM4cDrrdRnOm9GcTHyw9aaq0asVNZZ6Ndjtz9GduDWKHKNg1wBMj2HuXQyXHAc2486vGUXBnz7vIze5IclFQBphH7UlM7z2CzDJXP9Hj56dXfS5cO4p8viPap/e/UxjKPgz6Q7yM3uVeuNgv593kZvcsnWtn+jR89Oq9a2f6NF+7qPSnw7hy1fjT+9+pi642C/pDvIze5OuNgv593kZvcswyXT/R4hx9QQ5LZ/o8R8inpT4dxHLV+NP736mHrjYL+fd5Gb3J1x8GfSHeRm9yy9a6f6NF+7qnWtn+jx89OnpT4dw5avxp/e/UxHKNgz6Q7yM3uVDlGwZ8848Ahm9yynJZP9Hj56dU61E50dRjbw50A6AU9LfDuJ5evxp/e/UhmOOUAVUZpqRjmRv0SSyWD3N7louc1p2knVvKYZH8XHlzHvbZkVpHXHy75zRfY4uLXW2Nibe2ctxgTJCyN4fM9gsb3ZeSTkLmtYw8OYV0rB1BFTxiKFmYwbNZJOtzidLidpOlaZylUeen1kVqlbcbm5qU2mlu33Yp5N3dru2SSVle927W9qIiyOeEREAREQBERAEREAREQBERAEREJCIiEBERCQiIhAREQBERAEREAREQBERAEREAREQH/2Q==" width="400px" height="300px"/>
-                    <p>43800₽</p>
-                    <p class="post-text">Смартфон iPhone11-128GB 128GB, красный</p>
-                    <a class="article-but" href="https://www.ozon.ru/product/smartfon-iphone11-128gb-128gb-krasnyy-596143462/?advert=_88fKSyUU6U0L4FtdNZNWGbF7ZiSWrDsc7_yDOiJRfozaFn9jZDhPDPIp1Xbv_zDdGvW_-B820737A_eZSTxtjQ0n7lmi6kqG8OAqkAdRgNfdE3UL13nBd6hng6htVsaDej0bkmlq5E-Ymhy0Kj-1K9OAa1LJqccDV6GtOrvybVSfh2QEUQOkFWDl2TpRCTeVEkN-YAs4l__lZ9_LWQVzvImxtXoImJRdJAwPhprZyycup9B76MIoA5vKqcXQVBv2_VFKhKmUPJuTrhfM033csCujCcl4KZVuUamXfDISm031aHuB_nnjLPop01u34_mvFtDPpM9LthtgZO4iPSUgviOOlxuIpGGylZt2CQEwNaKVeMOttO9QaHF9fGnTSHK0lN8ZKQWoOSKWd4nij2zQTQaeRKfT4bp1LEMGaLby0-rOgRMdYhpHqXCU_9-Zj8W8X2B_7tK7B9qcBywf2aN01Q1d_ZTG5ENT-3QaV_U5ejfvuHbYpyMH-wlvbM5Pj0t-WVB1ql9J7E_2J33c12oDuX0T80N-JaPLVHHqpUgck9aQa0zTvYQ7J8sg2y7xtYK&sh=O_f5B1CFow">Добавить в корзину</a>
-                    <img class="post-img" src="https://mi92.ru/wp-content/uploads/2021/08/xiaomi-redmi-10-4-64gb-gray-1.jpg" width="400px" height="300px"/>
-                    <p>13990₽</p>
-                    <p>13430₽ c OZON счетом</p>
-                    <p class="post-text">Смартфон Xiaomi Redmi 10 4/64GB, серый</p>
-                    <a class="article-but" href="https://www.ozon.ru/product/smartfon-xiaomi-redmi-10-4-64gb-seryy-337201248/?asb=ug%252BcQKMh2g6VS3jlM4PSaU3CsYUHJIJiBAjxVxO%252FMGgQPLPYCoqW4WIzebKecyFK&asb2=DDNgbSDsjHAhQV_N_RzJyV8lDTef3SaXTwU3w-Sw3L1jI_dBV-QrslYidFLAqsMHzQtFfh4VK8QGtk1mG9j2uPBUhidDqMzCoMsNI_ydAiY9oQG_5Fd7qiPdGJsXNYfAh7N2gNVdwMLxAyJcYlCRhQ&sh=O_f5B5urZg">Добавить в корзину</a>
-                    <img class="post-img" src="https://cdn1.ozone.ru/s3/multimedia-z/c1200/6161379035.jpg" width="400px" height="300px"/>
-                    <p>13305₽</p>
-                    <p>12773₽ c OZON счетом</p>
-                    <p class="post-text"> Планшет HUAWEI MatePad T10 LTE, 9.7", 32GB, темно-синий</p>
-                    <a class="article-but" href="https://www.ozon.ru/product/planshet-huawei-matepad-t10-lte-9-7-32gb-temno-siniy-407776617/?advert=bo9Dcp4w5Oe5jfFsb9qAe0U5xjWlREGIqnb_IlFRPofkMXEIPrX2Ct4hFZP6FFJbZZhCq02l_kBo-mn_HKffyMcO9coJy5-9KD0AIrOoGsaFMarcAPqt_JUnHQrMahnwCTyHWFslRawk3HmrKD8oD2KvyQ6FCpHZShTWr8fzapSOXzpjdTvhYl--9II5RP94ZMm00DJMLXgTqLzO8TMaZ5UM5ZpDrAP-Q3D6EK-q6H9mDcLzhOjlLgjOcsD9xw_XWfuTPes5zb_C_iLH5vetVghaPPEeUumPHXEGs0go1vwj3T-hBuNCZNClL85tnZJdwl-wrPz_Q-P9oIYB7Pjxo67eywXdrIgBKGrkF8lqmAWDf2QChASqzlj0lnKIe-dNKZ6MYYm7EPLR4_P-_kXFvtgsm30rUNpGdBW8nHuj95H0fGuDmq4tzgCaVjVY0S3H4ejawNBK6PT1XAsLkmG1pg0ZxcsOm1SMhb2PVyr3Bvj4NibB1LzR6p3WR6G_SRGbOREFTjTkowmm4LGBwVIPW8tBea6c7xOXxcl7MSAHW8c&sh=O_f5B91hSA">Добавить в корзину</a>
-                    <img class="post-img" src="https://content2.onliner.by/catalog/device/main/e92616f06cffda2c937036c04fa4ee0f.jpeg" width="400px" height="300px"/>
-                    <p>5990₽</p>
-                    <p class="post-text">Планшет Digma Plane 1596, 10.1", 16GB, черный Digma Plane 1596 3G</p>
-                    <a class="article-but" href="https://www.ozon.ru/product/zubnaya-pasta-biorepair-kids-detskaya-s-ekstraktom-persika-50-ml-185222734/?miniapp=supermarket&sh=O_f5B5jgSQ">Добавить в корзину</a>
-                    <img class="post-img" src="https://items.s1.citilink.ru/1601156_v01_b.jpg" width="400px" height="300px"/>
-                    <p>24999₽</p>
-                    <p>24374 c OZON счетом</p>
-                    <p class="post-text">14" Ноутбук Lenovo IdeaPad 1 14IGL05,...</p>
-                    <a class="article-but" href="https://www.ozon.ru/product/14-noutbuk-lenovo-ideapad-1-14igl05-intel-celeron-n4020-1-1-ggts-ram-4-gb-ssd-128-gb-intel-uhd-351343833/?asb=h1lQHuUoIt0CfvEpmXOnaspoC%252FNEY1fNlSviWlvI%252Bfw%253D&asb2=e0vof9iy-NHyZVPhCFKnYHf6E2MGxzKZuKiEUEPg0ecNn0QBEKC8nn2zpGxcQSdr&sh=O_f5B26csg">Добавить в корзину</a>
-            </section>      
-            <p><b>OZON в соц.сетях</b></p>
-            <a class="social" href=""><img src="https://mars.algoritmika.org/uploads/2021/02/icon-set-1142000_1280%201_0_1613586391.png" width="30px" height="30px"></a>
-            <a class="social" href=""><img src="https://mars.algoritmika.org/uploads/2021/02/Group%201_0_1613586391.png" width="30px" height="30px"></a>
-            <a class="social" href=""><img src="https://mars.algoritmika.org/uploads/2021/02/instagram-3288419_1280%201_0_1613586391.png" width="30px" height="30px"></a>
-        </main>
-        <footer>
-        
-        </footer>
-    </body>
-</html>
+
+body {
+    font-family: sans-serif;
+    background-color:white;
+    display:flex;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+.button {
+    background-color: blue;
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 24px;
+    border-radius: 10px;
+    display: block;
+    float: right;
+}
+
+nav {
+    padding: 25px 100px 25px 95px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link {
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 36px;
+    margin-top: 45px;
+    margin-bottom: 40px;
+}
+
+.post-text {
+    font-size: 24px;
+    color: black;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.post {
+    background-color: white;
+    padding: 15px 45px 30px 45px;
+    width: 200px;
+    margin: 20px;
+    position: relative;
+    color: black;
+}
+
+.post-img{
+    height: 700px;
+}
+
+.article-but {
+    text-decoration: none;
+    background-color: #133aac;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 75px 10px 75px;
+    display: block;
+}
+
+.full-image {
+    margin: 100px 0px 100px 0px;
+}
+
+.social {
+    display: block;
+    width: 30px;
+}
+
+footer {
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 30px 20px 45px;
+}
+
+.footer-text {
+    font-size: 24px;
+    margin-right: 30px;
+}
+
+.footer-text span {
+    color: #850AE5;
+    font-weight: bolder;
+}
+
+.logo{
+    widht: 300px;
+    height: 100px;
+}
+
+.article-but:hover{
+    background-color: cornflowerblue;
+}
+
+.button:hover{
+    background-color: darkblue;
+}
+
+.nav-link:hover{
+    background-color: lightblue;
+}
+
+
+
+.poick {
+    float: center;
+}
+
+.vhod {
+    color: black;
+    text-decoration: none;
+}
+
+.zakaz {
+    color: black;
+    text-decoration: none;
+}
+
+.izbra {
+    color: black;
+    text-decoration: none;
+}
+
+.korzina {
+    color: black;
+    text-decoration: none;
+}
+
